@@ -1,8 +1,9 @@
 import React from "react";
 import { PrimaryButton } from "office-ui-fabric-react";
 import { Icon } from "office-ui-fabric-react/lib/Icon";
+import { NavBar as NavBarComponent } from "./components/navbar";
 
-class HelloLib extends React.Component {
+export class HelloLib extends React.Component {
     render() {
         return (
             <div>
@@ -14,4 +15,12 @@ class HelloLib extends React.Component {
     }
 }
 
-export default HelloLib;
+export class NavBar extends React.Component {
+    render() {
+        return (
+            <div>
+                <NavBarComponent />
+            </div>
+        );
+    }
+}
