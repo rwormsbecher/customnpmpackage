@@ -1,0 +1,27 @@
+{
+    "name": "testprivatenprodney",
+    "version": "1.0.3",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --progress --colors --p",
+        "transpile": "npx babel ./src/HelloLib.js --out-file lib/HelloLib.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.6.4",
+        "@babel/core": "^7.6.4",
+        "@babel/preset-react": "^7.6.3",
+        "babel-loader": "^8.0.6",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9"
+    },
+    "dependencies": {
+        "office-ui-fabric-react": "^7.55.3",
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0"
+    }
+}
